@@ -5,5 +5,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
     iputils-ping \
     mtr \
-    nmap
+    nmap \
+    net-tools \
+    iproute2
 
