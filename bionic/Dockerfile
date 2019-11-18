@@ -7,5 +7,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     mtr \
     nmap \
     net-tools \
-    iproute2
+    iproute2 \
+    dnsutils
 
