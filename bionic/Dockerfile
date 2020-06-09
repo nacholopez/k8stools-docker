@@ -8,5 +8,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     nmap \
     net-tools \
     iproute2 \
-    dnsutils
+    dnsutils \
+    jq
 
