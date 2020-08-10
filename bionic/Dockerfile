@@ -11,5 +11,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     dnsutils \
     jq \
     telnet \
-    ftp
+    ftp \
+    lftp
 
