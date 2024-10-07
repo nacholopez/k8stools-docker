@@ -13,4 +13,5 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     telnet \
     ftp \
     lftp \
-    bc
+    bc \
+    openssh-client
