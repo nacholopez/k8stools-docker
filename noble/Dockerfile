@@ -1,4 +1,4 @@
-FROM ubuntu:focal
+FROM ubuntu:noble
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     ca-certificates \
@@ -14,4 +14,5 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ftp \
     lftp \
     bc \
-    openssh-client
+    openssh-client \
+    && rm -rf /var/lib/apt/lists/*

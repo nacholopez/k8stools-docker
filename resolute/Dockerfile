@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM ubuntu:resolute
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     ca-certificates \
@@ -13,5 +13,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     telnet \
     ftp \
     lftp \
-    bc
-
+    bc \
+    openssh-client \
+    && rm -rf /var/lib/apt/lists/*
